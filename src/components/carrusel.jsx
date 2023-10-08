@@ -1,14 +1,16 @@
 import React from 'react'
+import "../styles/carrusel"
 
 function carrusel() {
   return (
     <section>
-        <div>
-            <div>
+        <div className='place'>
+            <div className='rate'>
                 <i></i>
                 <span></span>
             </div>
-            <button></button>
+            <button className='like'></button>
+            <img src="" alt="" />
         </div>
     </section>
   )
