@@ -1,12 +1,5 @@
-header {
-    background: rgba(0,0,0,0.7);
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
-  
+
   nav {
-    float: left;
     background: #4C9FC1;
     width: 327px;
     height: 72px;
@@ -18,15 +11,15 @@ header {
   }
 
   nav ul {
-    list-style: none;
+    padding: 0;
+    width: 327px;
+    float: left;
+    list-style:none;
     overflow: hidden; 
+    display: flex;
+    justify-content: space-around;
   }
   
-  nav ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
   nav ul li img {
     display: block;
     padding: 10px;
@@ -34,5 +27,5 @@ header {
 
   nav ul li:hover {
     background: rgb(139, 194, 216);
-    border-radius: 15px;
+    border-radius: 10px;
   }
