@@ -7,8 +7,16 @@ header {
   
   nav {
     float: left;
+    background: #4C9FC1;
+    width: 327px;
+    height: 72px;
+    top: 710px;
+    left: 24px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
   }
-  
+
   nav ul {
     list-style: none;
     overflow: hidden; 
@@ -19,7 +27,12 @@ header {
     font-family: Arial, sans-serif;
     font-size: 16px;
   }
+  nav ul li img {
+    display: block;
+    padding: 10px;
+  }
 
   nav ul li:hover {
-    background: #eca023;
+    background: rgb(139, 194, 216);
+    border-radius: 15px;
   }

@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/menu.css'
 function Menu() {
   return (
-    <footer>
+    <div>
         <nav>
             <ul>
 				<li><img src='/menu/Home.svg'></img></li>
@@ -11,7 +11,7 @@ function Menu() {
 				<li><img src='/menu/Settings.svg'></img></li>
 			</ul>
         </nav>
-    </footer>
+    </div>
   )
 }
 
