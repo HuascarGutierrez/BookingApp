@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    align-items: center;
+    }
+ul li{
+    display: flex;
+    padding: 0px 20px;
+
+
+}
+a{
+    color:w;
+}
+a:hover{
+    color: black;
+
+}
