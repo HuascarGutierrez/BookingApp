@@ -1,67 +1,45 @@
 import React from 'react'
 import "../styles/Carrusel.css";
-import "../styles/swiper-bundle.min.css";
-import "../js/script.js";
-import "../js/swiper-bundle.min.js"
 import Card from './Card';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-function Carrusel(props) {
-  const places = props.places
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { places } from '../assets/places';
 
-  var swiper = new Swiper(".slide-container", {
-    slidesPerView: 4,
-    spaceBetween: 20,
-    sliderPerGroup: 4,
-    loop: true,
-    centerSlide: "true",
-    fade: "true",
-    grabCursor: "true",
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      520: {
-        slidesPerView: 2,
-      },
-      768: {
-        slidesPerView: 3,
-      },
-      1000: {
-        slidesPerView: 4,
-      },
-    },
-  });
- 
+
+// import required modules
+import { Pagination } from 'swiper/modules';
+
+function Carrusel() {
   
   return (
-    <div>
-      <section className='container swiper'>
-      <div className='slide-container'>
-        <div className='card-wrapper swiper-wrapper'>
-          <Card places={places}/>
-          <Card places={places}/>
-          <Card places={places}/>
-          <Card places={places}/>
-          <Card places={places}/>
-          <Card places={places}/>
-          <Card places={places}/>
-        </div>
-      </div>
+    <section>
+      <Swiper
+      slidesPerView={1}
+      centeredSlides={true}
+      spaceBetween={30}
+      grabCursor={true}
+      pagination={{
+        clickable: true,
+      }}
+      modules={[Pagination]}
+      className="mySwiper"
+    >
+      {
+        places.map(place=>{
+          return(
+            
+      <SwiperSlide><Card places={place}/></SwiperSlide>
+    
+          )
+        }
+
+        )
+      }
+    </Swiper>
     </section>
-    <div class="swiper-button-next swiper-navBtn"></div>
-    <div class="swiper-button-prev swiper-navBtn"></div>
-    <div class="swiper-pagination"></div>
-    </div>
     
   )
 }
