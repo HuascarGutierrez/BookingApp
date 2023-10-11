@@ -1,0 +1,83 @@
+
+.card{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.place img{
+    width: 300px;
+    height: 336px;
+    border-radius: 24px;
+}
+
+.rate{
+    position: absolute;
+    width: Hug (65px);
+    height: Hug (28px);
+    border-radius: 50px;
+    padding: 4px 8px 5px 8px;
+    margin: 20px 0 0 20px;
+    color: #fff;
+    background: #FFFFFF4D;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.12px;
+}
+
+.like{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    width: 24px;
+    height: 24px;
+    margin: 22px 0 0 256px;
+}
+
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.description div h2{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.price{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4C9FC1;
+}
+
+.per {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #A1A7B0;
+}
+
+.info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    margin: 5px 0 0 0;
+    color: #A1A7B0;
+}
+
+.info i{
+    margin: 0 5px 0 0;
+}
+
+sup{
+    position: absolute;
+    margin-top: -5px;
+}
+
+
