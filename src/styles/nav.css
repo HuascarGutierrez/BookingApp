@@ -1,17 +1,21 @@
-nav{
+.navigation {
+    width: 375px;
     display: flex;
     align-items: center;
-    }
-ul li{
+}
+.nav-list {
+    padding: 0;
+}
+
+.nav-list li {
     display: flex;
-    padding: 0px 20px;
-
-
+    padding: 0 5px;
 }
-a{
-    color:w;
+.nav-list a {
+    color: gray;
+    background-color: white;
 }
-a:hover{
-    color: black;
+.nav-list a:hover {
+    color: black; 
+}
 
-}
