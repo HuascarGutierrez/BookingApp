@@ -12,8 +12,8 @@ import { places } from '../assets/places';
 // import required modules
 import { Pagination } from 'swiper/modules';
 
-function Carrusel() {
-  
+function Carrusel(props) {
+  const places = props.places;
   return (
     <section>
       <Swiper
