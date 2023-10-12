@@ -38,6 +38,6 @@ export const places = [
     size:"1000 ",
     price:"750",
     score:"4,80",
-    imgUrl:"/place5.svg"
+    imgUrl:"/place2.svg"
     }
 ]
