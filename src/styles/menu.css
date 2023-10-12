@@ -1,0 +1,31 @@
+.navBottom {
+    background: #4C9FC1;
+    width: 327px;
+    height: 72px;
+    top: 710px;
+    left: 24px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navBottom ul {
+    padding: 0;
+    width: 327px;
+    float: left;
+    list-style:none;
+    overflow: hidden; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navBottom ul li img {
+    display: block;
+    padding: 10px;
+  }
+
+  .navBottom ul li:hover {
+    background: rgb(139, 194, 216);
+    border-radius: 10px;
+  }
