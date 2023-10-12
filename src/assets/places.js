@@ -25,7 +25,7 @@ export const places = [
         imgUrl:"/place3.svg"
     },
 {
-    title:"Villa, Canggu",
+    title:"Villa, Canggu Bali",
     bedroom: "5 ",
     size:"600 ",
     price:"400",
