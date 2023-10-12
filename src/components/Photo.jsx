@@ -1,8 +1,11 @@
-import React from 'react'
 import "../styles/Card.css";
 
-function Place(props) {
-    const places = props.places;
+import React from 'react'
+
+
+function Photo(props) {
+  
+  const places = props.places;
   return (
     <div className='place'>
             <div className='rate'>
@@ -19,8 +22,8 @@ function Place(props) {
               </svg>
             </button>
             <img src={places.imgUrl} alt={places.title} />
-        </div>
+    </div>
   )
 }
 
-export default Place
+export default Photo
