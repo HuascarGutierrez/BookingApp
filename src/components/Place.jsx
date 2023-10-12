@@ -3,7 +3,7 @@ import "../styles/place.css"
 
 function Place() {
   return (
-    <section>
+    <div>
         <p>You are here</p>
         <div className='country'>
         <h2>Indonesia</h2>
@@ -11,7 +11,7 @@ function Place() {
         <i className='arrow'></i>
         </div>
         </div>
-    </section>
+    </div>
   )
 }
 
