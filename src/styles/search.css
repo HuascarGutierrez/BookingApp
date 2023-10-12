@@ -1,0 +1,32 @@
+.DENIS
+{
+    position: relative;    
+    display: flex;
+    flex-direction: row;
+    width: 263px;
+    height: 48px;
+    justify-content: space-between;
+}
+input
+{
+    
+    padding: 0 0 0 30px;
+    width: 263;
+    height: 48px;
+    top: 124px;
+    left: 24px;
+    border-radius: 12px;
+    border: 0;
+    outline: none;
+    background-color: white;
+    color: black;
+}
+.DENIS img
+{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin-left: 2px;
+    top: 10px;
+    background-color: transparent;
+}

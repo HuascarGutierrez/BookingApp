@@ -1,0 +1,7 @@
+.classInput {
+    width: 327px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

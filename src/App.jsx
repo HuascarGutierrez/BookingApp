@@ -1,14 +1,13 @@
 import {profiles} from './assets/profiles'
 import './App.css'
-import Top from './components/Top'
+import Template from './components/Template'
 
 function App() {
 
   return (
     <>
-      <Top profiles={profiles}/>
+      <Template />
     </>
   )
 }
-
 export default App
