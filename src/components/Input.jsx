@@ -1,12 +1,15 @@
 import React from 'react'
 import "../styles/input.css"
-const icon = '/Group3.svg'
-
+const icon = '/Search.svg'
 function Input() {
   return (
     <div>
         <div class="DENIS">
-            <input type="text" placeholder="Enter city or region"></input>
+            <img src="./Search.svg"/>
+            <input type="text" placeholder="Enter city or region"></input>  
+            <button>
+                <img src='/Group3.svg'></img>
+            </button>            
         </div>
     </div>
   )
