@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profiles{
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+.user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.available{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0 30px ;
+}
+
+.yes{
+    background-color: #FF8383;
+}

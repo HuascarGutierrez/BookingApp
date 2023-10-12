@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import Place from './components/Place'
+import Place from './components/Place'  
+import Profile from './components/Profile'
+import {profiles} from './assets/profiles'
 import './App.css'
-
 function App() {
 
   return (
     <>
-      <Place />
+      <Profile profiles={profiles}/>
     </>
   )
 }
