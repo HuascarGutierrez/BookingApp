@@ -1,6 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
+section {
+    width: 108px;
+    height: 48px;
+    top: 56px;
+    left: 24px;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
+.country {
+    width: 108px;
+    height: 24px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-family: 'Manrope', sans-serif;
+}
+h2{
+    margin: 0;
+    color: #464646;
+    font-size: 18px;
+}
+p {
+    margin: 0;
+    color: #A1A7B0;
+    font-size: 14px;
+}
+.arrowPlace {
+    display: flex;
+    align-items: center;
+}
+.arrow {
+    background-image: url("/Arrow.svg");
+    width: 10px;
+    height: 6px;
+    display: flex;
+    align-items: center;
+}
+
