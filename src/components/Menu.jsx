@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/menu.css'
 function Menu() {
+  const intento = props.menu;
   return (
     <div>
         <nav>
