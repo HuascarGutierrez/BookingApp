@@ -4,11 +4,11 @@ function Nav() {
     return (
        <nav className="navigation"> 
          <ul className="nav-list"> 
-            <li><a href="bets">Bests</a></li>
-            <li><a href="popular">Popular</a></li>
-            <li><a href="immediate">Immediate</a></li>
-            <li><a href="new">New</a></li>
-            <li><a href="profitable">Profitable</a></li>
+            <li><a href="">Bests</a></li>
+            <li><a href="">Popular</a></li>
+            <li><a href="">Immediate</a></li>
+            <li><a href="">New</a></li>
+            <li><a href="">Profitable</a></li>
          </ul>
        </nav>
     )
