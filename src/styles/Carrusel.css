@@ -1,0 +1,11 @@
+
+.container{
+    width: 100vw;
+    height:auto;
+    padding: 0 0;
+  }
+  
+  .slide-container{
+    margin: 0 30px;
+    overflow: hidden;
+  }
