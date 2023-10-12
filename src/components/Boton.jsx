@@ -1,16 +1,10 @@
 import React from 'react'
-import "../styles/input.css"
-const icon = '/Group3.svg'
+import "../styles/boton.css"
 function Boton() {
-  return (
-    <div>
-        
-            
+  return (      
             <button>
                 <img src='/Group3.svg'></img>
             </button>            
-        
-    </div>
   )
 }
 export default Boton
