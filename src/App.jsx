@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import Menu from './components/Menu'
+import {profiles} from './assets/profiles'
 import './App.css'
+import Top from './components/Top'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Menu/>
+      <Top profiles={profiles}/>
     </>
   )
 }
