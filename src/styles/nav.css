@@ -1,5 +1,6 @@
 .navigation {
-    width: 375px;
+    margin: 24px;
+    height: 20px;
     display: flex;
     align-items: center;
 }
@@ -9,13 +10,21 @@
 
 .nav-list li {
     display: flex;
-    padding: 0 5px;
+    padding: 0 15px 0 0;
 }
 .nav-list a {
-    color: gray;
-    background-color: white;
+    color: #464646;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    padding-bottom: 5px;
 }
 .nav-list a:hover {
-    color: black; 
+    color: black;
+    font-weight: 600; 
+    line-height: 20px;
+    border-bottom: 2px solid black;
 }
 
