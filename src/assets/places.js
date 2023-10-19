@@ -6,7 +6,7 @@ export const places = [
         size:"214 ",
         price:"920",
         score:"4,93",
-        imgUrl:"/place1.svg"
+        imgUrl:"./place1.svg"
     },
     {
         title:"Villa, Ziba Seminyak",
@@ -14,7 +14,7 @@ export const places = [
         size:"520 ",
         price:"1100",
         score:"4,89",
-        imgUrl:"/place2.svg"
+        imgUrl:"./place2.svg"
     },
     {
         title:"Villa, Kecamatan Ubud",
@@ -22,7 +22,7 @@ export const places = [
         size:"214 ",
         price:"920",
         score:"4,89",
-        imgUrl:"/place3.svg"
+        imgUrl:"./place3.svg"
     },
 {
     title:"Villa, Canggu Kecamatan",
@@ -30,7 +30,7 @@ export const places = [
     size:"600 ",
     price:"400",
     score:"4,82",
-    imgUrl:"/place4.svg"
+    imgUrl:"./place4.svg"
     },
 {
     title:"Villa, Kerobocan Kelod",
@@ -38,6 +38,6 @@ export const places = [
     size:"1000 ",
     price:"750",
     score:"4,80",
-    imgUrl:"/place2.svg"
+    imgUrl:"./place2.svg"
     }
 ]
