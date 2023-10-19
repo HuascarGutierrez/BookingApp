@@ -3,7 +3,7 @@ import "../styles/boton.css"
 function Boton() {
   return (      
             <button>
-                <img src='/Group3.svg'></img>
+                <img src='./Group3.svg'></img>
             </button>            
   )
 }
